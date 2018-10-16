@@ -19,49 +19,49 @@ googleAnalytics = ""
 #This theme can generate a multi-level menu.
 #Use weight= to specify the order of menu items, and parent= to create a submenu item.
 [menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
+  # [[menu.main]]
+  #   name = "Home"
+  #   url = "/"
+  #   weight = 1
 
-  [[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 2
+  # [[menu.main]]
+  #   name = "About"
+  #   url = "/about"
+  #   weight = 2
 
-  [[menu.main]]
-    name = "About Us"
-    parent = "About"
-    url = "/about"
-    weight = 1
+  # [[menu.main]]
+  #   name = "About Us"
+  #   parent = "About"
+  #   url = "/about"
+  #   weight = 1
 
-  [[menu.main]]
-    name = "Leaders"
-    parent = "About"
-    url = "/leaders"
-    weight = 2
+  # [[menu.main]]
+  #   name = "Leaders"
+  #   parent = "About"
+  #   url = "/leaders"
+  #   weight = 2
 
-  [[menu.main]]
-    name = "Resources"
-    url = "#"
-    weight = 3
+  # [[menu.main]]
+  #   name = "Resources"
+  #   url = "#"
+  #   weight = 3
 
-  [[menu.main]]
-    name = "Sermons"
-    url = "/sermons"
-    parent = "Resources"
-    weight = 1
+  # [[menu.main]]
+  #   name = "Sermons"
+  #   url = "/sermons"
+  #   parent = "Resources"
+  #   weight = 1
 
-  [[menu.main]]
-    name = "Blog"
-    url = "/posts"
-    parent = "Resources"
-    weight = 2
+  # [[menu.main]]
+  #   name = "Blog"
+  #   url = "/posts"
+  #   parent = "Resources"
+  #   weight = 2
 
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact"
-    weight = 4
+  # [[menu.main]]
+  #   name = "Contact"
+  #   url = "/contact"
+  #   weight = 4
 
 # Paramaters for the whole site
 [params]
@@ -110,7 +110,7 @@ googleAnalytics = ""
       image = "img/banner.jpg"
 
       [[params.landing.banner.button]]
-        url = "/contact"
+        url = "#feature-images"
         text = "Get in touch"
         type = "special"
 
@@ -165,13 +165,13 @@ googleAnalytics = ""
         image = "img/option1.jpg"
         title = "This site is currently undergoing maintainance"
         text = "Some buttons may not work and you may find some pages that do not exist yet."
-        url = "/option1"
+        url = ""      # "/option1"
         button_text = "Learn more"
 
       [[params.landing.feature_images.tile]]
         image = "img/freely-26905.jpg"
         title = "Contact Us"
-        text = "Send an email to artifactsanonymous@gmail.com"
+        text = "Send an email to artifacts.anonymous@gmail.com"
         url = "#"
         button_text=""
 
@@ -179,32 +179,32 @@ googleAnalytics = ""
       heading = "Get in touch!"
       message = "We'd love to hear from you."
 
-    [params.footer]
-      copyright = ["[CC0 (public domain)](//creativecommons.org/publicdomain/zero/1.0/)",
-                   "Design: [HTML5 UP](//html5up.net/alpha)",
-                   "[Hugo Port](//gohugo.io) by [Daniel Saunders](//github.com/funkydan2)"
-                  ]
+    # [params.footer]
+    #   copyright = ["[CC0 (public domain)](//creativecommons.org/publicdomain/zero/1.0/)",
+    #                "Design: [HTML5 UP](//html5up.net/alpha)",
+    #                "[Hugo Port](//gohugo.io) by [Daniel Saunders](//github.com/funkydan2)"
+    #               ]
 
-    [[params.links]]
-      service = "Twitter"
-      icon = "fa-twitter"
-      icon_pack = "fab"
-      link = "//twitter.com/"
+    # [[params.links]]
+    #   service = "Twitter"
+    #   icon = "fa-twitter"
+    #   icon_pack = "fab"
+    #   link = "//twitter.com/"
 
-    [[params.links]]
-      service = "Facebook"
-      icon = "fa-facebook"
-      icon_pack = "fab"
-      link = "//facebook.com/"
+    # [[params.links]]
+    #   service = "Facebook"
+    #   icon = "fa-facebook"
+    #   icon_pack = "fab"
+    #   link = "//facebook.com/"
 
-    [[params.links]]
-      service = "Podcast"
-      icon = "fa-podcast"
-      icon_pack = "fas"
-      link = "/sermons/index.xml"
+    # [[params.links]]
+    #   service = "Podcast"
+    #   icon = "fa-podcast"
+    #   icon_pack = "fas"
+    #   link = "/sermons/index.xml"
 
-    [[params.links]]
-      service = "Full RSS Feed"
-      icon = "fa-rss"
-      icon_pack = "fas"
-      link = "/index.xml"
+    # [[params.links]]
+    #   service = "Full RSS Feed"
+    #   icon = "fa-rss"
+    #   icon_pack = "fas"
+    #   link = "/index.xml"
